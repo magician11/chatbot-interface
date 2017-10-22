@@ -63,7 +63,7 @@ class Chatroom extends React.Component {
       <div className="chatroom">
         <h1>Go For Self</h1>
         <ul className="chats" ref="chats">
-          {chats.map(chat => <Message chat={chat} />)}
+          {chats.map((chat, i) => <Message chat={chat} key={i} />)}
         </ul>
         <form className="input" onSubmit={e => this.submitMessage(e)}>
           <input
