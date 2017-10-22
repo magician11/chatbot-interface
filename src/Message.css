@@ -1,0 +1,21 @@
+.chats .chat {
+  position: relative;
+  padding: 8px 18px;
+  font-size: 15.5px;
+  border-radius: 11px;
+  list-style: none;
+  float: left;
+  clear: both;
+  margin: 11px 0;
+  max-width: 170px;
+}
+
+.chats .chat.left {
+  background: #ADD8E6;
+}
+
+.chats .chat.right {
+  float: right;
+  clear: both;
+  background: #00BFFF;
+}

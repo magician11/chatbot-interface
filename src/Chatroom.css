@@ -1,0 +1,49 @@
+.chatroom {
+  width: 380px;
+  background-color: rgba(0, 0, 0, 0.69);
+}
+
+.chatroom h1 {
+  background-color: #204772;
+  color: #fff;
+  margin: 0;
+  height: 56px;
+  font-size: 22px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatroom .chats {
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 10px 0 0;
+  height: 470px;
+  overflow-y: scroll;
+}
+
+.chatroom .input {
+  height: 47px;
+  width: 100%;
+  background: #204772;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chatroom .input input[type="text"] {
+  background: #204772;
+  outline: 0;
+  padding-left: 22px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  border: none;
+}
+
+.chatroom .input input[type="text"]::placeholder {
+  color: #fff;
+}
