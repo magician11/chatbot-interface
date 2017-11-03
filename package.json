@@ -2,6 +2,7 @@
   "name": "chat-interface",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://apps.golightlyplus.com/chatbots",
   "dependencies": {
     "react": "^16.0.0",
     "react-chat-bubble": "^0.8.7",
